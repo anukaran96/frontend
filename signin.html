@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Signin</title>
+</head>
+<body>
+    <header>
+        <h1>Signin</h1>
+        <nav>
+            <a href="home.html">Home</a>
+            <a href="signup.html">Signup</a>
+        </nav>
+    </header>
+    <main>
+        <form class="form" action="LoginServlet" method="post">
+            <label for="username">Username:</label>
+            <input type="text" id="username" name="username" required>
+            
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" required>
+            
+            <input type="submit" value="Signin">
+        </form>
+    </main>
+    <footer>
+        <p>&copy; 2025 Your Company</p>
+    </footer>
+</body>
+</html>
